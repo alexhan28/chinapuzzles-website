@@ -1,14 +1,20 @@
 
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about the passionate team of developers, designers, and cultural enthusiasts dedicated to creating ChinaPuzzles and sharing the beauty of Chinese culture.",
+};
 
 export default function AboutPage() {
   return (
     <MaxWidthWrapper className="mt-28 sm:mt-40">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
           About Us
         </h1>
-        <div className="prose prose-lg text-zinc-700 max-w-none">
+        <div className="prose prose-lg text-zinc-300 max-w-none prose-p:text-zinc-300">
           <p>
             We are a passionate team of developers, designers, and cultural enthusiasts dedicated to bridging the gap between ancient traditions and modern entertainment. Our mission is to create engaging and educational experiences that celebrate the richness of Chinese history and art.
           </p>
