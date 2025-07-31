@@ -8,7 +8,9 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center blur-sm scale-105"
         style={{ backgroundImage: "url(/images/background.jpg)" }}
       ></div>
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-zinc-900"></div>
+      <div className="absolute inset-out bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900"></div>
       <MaxWidthWrapper className="relative z-10 flex flex-col items-center">
         <h1 className="font-montserrat text-5xl md:text-7xl font-bold tracking-tight text-white">
           Culture. Business. Insight.

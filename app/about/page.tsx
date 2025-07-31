@@ -11,18 +11,24 @@ export default function AboutPage() {
   return (
     <MaxWidthWrapper className="mt-28 sm:mt-40">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 font-montserrat">
           About Us
         </h1>
-        <div className="prose prose-lg text-zinc-300 max-w-none prose-p:text-zinc-300">
+        <div className="prose prose-lg max-w-none text-zinc-300 prose-p:text-zinc-300 space-y-6">
           <p>
-            We are a passionate team of developers, designers, and cultural enthusiasts dedicated to bridging the gap between ancient traditions and modern entertainment. Our mission is to create engaging and educational experiences that celebrate the richness of Chinese history and art.
+            <span className="font-semibold">China Puzzles</span> is a cross-cultural exploration platform connecting the world with a multifaceted China.
           </p>
           <p>
-            The ChinaPuzzles project was born from a shared love for intricate puzzles and the fascinating stories woven into Chinese culture. We believe that learning can be a joyful adventure, and we strive to craft puzzles that are not only challenging but also beautiful and meaningful.
+            We design high-energy programs that combine business, culture, and storytelling — from company visits and immersive experiences to conversations with entrepreneurs, scholars, and changemakers.
           </p>
           <p>
-            From the bustling streets of Shanghai to the serene landscapes of Guilin, our inspirations are as diverse as China itself. We hope our puzzles bring you as much joy and discovery as we experienced while creating them.
+            Our founding team comes from top universities across China and abroad, and brings a young, diverse, and globally-minded perspective. We're driven by curiosity, creativity, and the belief that real understanding comes from honest, human connection — not just headlines.
+          </p>
+          <p>
+            Whether you're a <span className="font-semibold">student, founder, investor, or explorer</span>, we invite you to collect the puzzle pieces with us — and reimagine China through many lenses.
+          </p>
+          <p>
+            <span className="font-semibold">Let’s piece together the future, one story at a time.</span>
           </p>
         </div>
       </div>
