@@ -5,7 +5,7 @@ import ContactFooter from "@/components/ContactFooter";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "ChinaPuzzles | Engaging Puzzles of Chinese Culture & History",
+  title: "China Puzzles",
   description: "Explore the mysteries of the East with ChinaPuzzles. A unique collection of engaging and educational puzzles that celebrate the richness of Chinese history, art, and culture.",
 };
 

@@ -18,12 +18,21 @@ const Hero = () => {
         <p className="mt-4 max-w-2xl text-lg md:text-xl text-zinc-300">
           Collect the puzzle pieces. Unlock a complete glimpse of China.
         </p>
-        <a
-          href="#details"
-          className="mt-8 inline-block rounded-full border-2 border-white px-8 py-3 text-sm font-semibold text-white uppercase tracking-widest transition hover:bg-white hover:text-black"
-        >
-          Explore Program
-        </a>
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href="#details"
+            className="inline-block rounded-full border-2 border-white px-8 py-3 text-sm font-semibold text-white uppercase tracking-widest transition hover:bg-white hover:text-black"
+          >
+            Explore Program
+          </a>
+          <a
+            href="/2025ChinaPuzzlesFlyer.pdf"
+            download="2025ChinaPuzzles_Flyer.pdf"
+            className="inline-block rounded-full border-2 border-white px-8 py-3 text-sm font-semibold text-white uppercase tracking-widest transition hover:bg-white hover:text-black"
+          >
+            Download Flyer
+          </a>
+        </div>
       </MaxWidthWrapper>
     </div>
   );

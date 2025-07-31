@@ -23,7 +23,7 @@ const Highlights = () => {
             <div className="max-w-xl">
               <div className="mt-8 flex items-center gap-x-4 text-xs">
                 <time dateTime="2024" className="text-gray-400">
-                  2024
+                  Featured
                 </time>
               </div>
               <div className="group relative">
