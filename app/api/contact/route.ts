@@ -17,7 +17,7 @@ export async function POST(request: Request) {
       from: 'onboarding@resend.dev', // Note: This needs to be a verified domain in Resend
       to: 'info@chinapuzzles.com',
       subject: `New message from ${name}`,
-      reply_to: email,
+      replyTo: email,
       html: `<p>You have a new message from your website contact form:</p>
              <p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
