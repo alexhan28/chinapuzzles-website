@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: 'onboarding@resend.dev', // Note: This needs to be a verified domain in Resend
+      from: 'info@chinapuzzles.com',
       to: 'info@chinapuzzles.com',
       subject: `New message from ${name}`,
       replyTo: email,
