@@ -23,6 +23,12 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
+              href="/product"
+              className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+            >
+              Product
+            </Link>
+            <Link
               href="/contact"
               className="text-zinc-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
             >
